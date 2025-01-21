@@ -1,4 +1,6 @@
 import './assets/style.css'
+import NewTask from '@/components/NewTask.vue';
+import TaskItem from '@/components/TaskItem.vue';
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
@@ -14,5 +16,8 @@ pinia.use(piniaPluginPersistedstate)
 
 app.use(pinia)
 app.use(router)
+
+app.component('NewTask', NewTask)
+app.component('TaskItem', TaskItem)
 
 app.mount('#app')
