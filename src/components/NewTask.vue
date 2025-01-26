@@ -10,4 +10,5 @@ const store = useTodoStore()
 		<button type="submit" @click="store.addTodo" class="bg-sky-600 px-5 py-2 font-semibold rounded-md w-fit">Add
 			Todo</button>
 	</form>
+	<p :class="$attrs.class">I'm also a root element</p>
 </template>

@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import TodosView from '../views/TodosView.vue'
 import TemplateView from '@/views/TemplateView.vue'
 import ReactivityView from '@/views/ReactivityView.vue'
+import ComputedView from '@/views/ComputedView.vue'
+import BindingView from '@/views/BindingView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,6 +30,16 @@ const router = createRouter({
       path: '/reactivity',
       name: 'reactivity',
       component: ReactivityView,
+    },
+    {
+      path: '/computed',
+      name: 'computed',
+      component: ComputedView,
+    },
+    {
+      path: '/binding',
+      name: 'binding',
+      component: BindingView,
     },
   ],
 })
