@@ -4,6 +4,7 @@ import TemplateView from '@/views/TemplateView.vue'
 import ReactivityView from '@/views/ReactivityView.vue'
 import ComputedView from '@/views/ComputedView.vue'
 import BindingView from '@/views/BindingView.vue'
+import EventsView from '@/views/EventsView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -40,6 +41,11 @@ const router = createRouter({
       path: '/binding',
       name: 'binding',
       component: BindingView,
+    },
+    {
+      path: '/events',
+      name: 'events',
+      component: EventsView,
     },
   ],
 })

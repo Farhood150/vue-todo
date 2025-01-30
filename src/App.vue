@@ -11,6 +11,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/reactivity">Reactivity</RouterLink>
         <RouterLink to="/computed">Computed</RouterLink>
         <RouterLink to="/binding">Binding</RouterLink>
+        <RouterLink to="/events">Events</RouterLink>
       </nav>
   </header>
   <main class="mt-8 p-4">
