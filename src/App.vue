@@ -12,6 +12,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/computed">Computed</RouterLink>
         <RouterLink to="/binding">Binding</RouterLink>
         <RouterLink to="/events">Events</RouterLink>
+        <RouterLink to="/watchers">Watchers</RouterLink>
       </nav>
   </header>
   <main class="mt-8 p-4">
